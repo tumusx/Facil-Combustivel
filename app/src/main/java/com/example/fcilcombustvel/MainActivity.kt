@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         val modeloCarro = findViewById(R.id.modeloCarroID) as EditText
         val botãoNexT = findViewById(R.id.button) as Button
 
+
         botãoNexT.setOnClickListener {
         }
-
     }
 }
