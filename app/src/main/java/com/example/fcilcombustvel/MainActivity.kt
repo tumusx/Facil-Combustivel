@@ -12,12 +12,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
             setContentView(R.layout.activity_main)
         val precoGasolina = findViewById(R.id.gasolinaID) as EditText
-        val precoAlcool  = findViewById(R.id.alcoolID) as EditText
-        val modeloCarro = findViewById(R.id.modeloCarroID) as EditText
-        val botãoNexT = findViewById(R.id.button) as Button
+        val precoAlcool = findViewById(R.id.alcoolID) as EditText
+        val nextBootom = findViewById(R.id.button) as Button
 
 
-        botãoNexT.setOnClickListener {
+        nextBootom.setOnClickListener {
         }
 
 
