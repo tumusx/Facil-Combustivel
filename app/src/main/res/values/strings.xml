@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Fácil Combustível</string>
+    <string name="gasolina">Insira o preço da Gasolina</string>
+    <string name="alcool">Insira o preço do Álcool </string>
+    <string name="bootonMain">Calcular</string>
+    <string name="distancia1">Insira a distância da ida</string>
+    <string name="result">Resultado</string>
+
 </resources>
