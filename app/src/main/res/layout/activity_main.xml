@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     android:padding="16sp"
     android:background="@drawable/gradient"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
 
 
     <EditText
         android:id="@+id/gasolinaID"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:textStyle="bold"
@@ -29,16 +30,16 @@
 
     <EditText
         android:id="@+id/modeloCarroID"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_width="0dp"
         android:layout_marginTop="105dp"
         android:textStyle="bold"
         android:ems="10"
+        android:background="@color/white"
         android:hint="Insira o modelo do seu Carro"
-        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
         android:lineSpacingExtra="10dp"
         android:textSize="25dp"
-        android:inputType="textAutoComplete"
         android:gravity="center"
         android:lines="2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +63,6 @@
         app:constraint_referenced_ids="gasolinaID"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
