@@ -12,6 +12,7 @@
         android:theme="@style/Theme.FácilCombustível">
         <activity
             android:name=".DistanciaActivity"
+            android:parentActivityName =".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -25,7 +26,8 @@
         </activity>
 
         <meta-data
-            android:name="preloaded_fonts"
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"
             android:resource="@array/preloaded_fonts" />
     </application>
 
