@@ -13,3 +13,7 @@ Quer saber como isso vai acabar? Então já fica antenado nesse projeto :)
 
 Imagem incial dele: 
 ![2021-11-25_01h11_20](https://user-images.githubusercontent.com/72824080/143379126-d571000f-217e-49a3-8cfb-1a9110b739ee.png)
+
+Imagem no meio do projet: 
+![image](https://user-images.githubusercontent.com/72824080/144714279-ff897242-5062-4142-a650-3b2079ce2615.png)
+
