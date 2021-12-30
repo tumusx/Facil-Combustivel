@@ -5,5 +5,6 @@
     <string name="bootonMain">Calcular</string>
     <string name="distancia1">Insira a distância da ida</string>
     <string name="result">Resultado</string>
+    <string name="saudades">Saudades</string>
 
 </resources>

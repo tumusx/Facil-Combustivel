@@ -13,14 +13,7 @@ class DistanciaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_distancia)
-        val nextBootom = intent.getStringExtra(EXTRA_MESSAGE)
-        val textView = findViewById<TextView>(R.id.textView2).apply {
-            text = nextBootom.toString()
-        }}}
-
-       /* val calcularPreco = findViewById<Button>(R.id.btCalcular)
-        val distanciaKM = findViewById<EditText>(R.id.rvDistanciaIda)*/
-       private fun Intent.getIntExtra(extraMessage: String) {
 
 
     }
+}
